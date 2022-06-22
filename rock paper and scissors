@@ -1,0 +1,62 @@
+#Write your code below this line 👇
+#Hint: Remember to import the random module first. 🎲
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+#Write your code below this line 👇
+import random
+n=int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."))
+  
+my_list = ['Rock','Paper','Scissors']
+x=random.choice(my_list)
+k=my_list[n-1]
+print(k)
+
+if k==x:
+  print("You have draw")
+elif k=="Rock" and x=='Paper':
+  print("Computer won")
+elif k=='Rock' and x=='Scissors':
+    print("You won")
+elif k=="Paper" and x=='Scissors':
+  print("Computer won")
+elif k=='Paper' and x=='Rock':
+    print("You won")  
+elif k=='Scissors' and x=='Paper':
+  print('You won')
+elif k=='Scissors' and x=='Rock':
+    print("Computer won")
+ 
+
+
+
+
+
+
+
+
+
