@@ -1,0 +1,62 @@
+old_value=0
+
+while True:
+  print('Navbat olish uchun menyudan boradigan yo`nalishni tanlang')
+  yonalishlar = input(" 1.Oftalmolog\n 2.Tish shifokori\n 3.Terapevt\n 4.Ginekolog\n 5.Urolog\n 6.Psixiatr\n 7.Jarroh\n")
+  navbat =[]
+  new_value=''
+  old_value+=1
+  new_value = old_value
+  
+  if yonalishlar=='1':
+    xona_raqami=input(" Xona raqamini tanlang: \n1\n2\n3\n")
+    
+    while True:
+      print(f" Sizning navbatingiz: {new_value}")
+      print(f" 1-etaj {xona_raqami}-xonaga borasiz!")
+      break
+      
+        
+  elif yonalishlar=='2':
+    while True:
+      xona_raqami=input(" Xona raqamini tanlang: \n4\n5\n6\n")
+      print(f" Sizning navbatingiz: {new_value}")
+      print(f" 1-etaj {xona_raqami}-xonaga borasiz!")
+      break
+  elif yonalishlar=='3':
+    while True:
+      xona_raqami=input(" Xona raqamini tanlang: \n7\n8\n9\n")
+      print(f" Sizning navbatingiz: {new_value}")
+      print(f" 1-etaj {xona_raqami}-xonaga borasiz!")
+      break
+  elif yonalishlar=='4':
+   while True:
+     xona_raqami=input(" Xona raqamini tanlang: \n10\n11\n12\n")
+     print(f" Sizning navbatingiz: {new_value}")
+     print(f" 1-etaj {xona_raqami}-xonaga borasiz!")
+      
+     break
+  elif yonalishlar=='5':
+    while True:
+      xona_raqami=input(" Xona raqamini tanlang: \n12\n14\n15\n")
+      
+      print(f" Sizning navbatingiz: {new_value}")
+      print(f" 2-etaj {xona_raqami}-xonaga borasiz!")
+      break
+  elif yonalishlar=='6':
+    while True:
+      print(f" Sizning navbatingiz: {new_value}")
+      print(f" 2-etaj {xona_raqami}-xonaga borasiz!")
+      break
+  elif yonalishlar=='7':
+    while True:
+      xona_raqami=input(" Xona raqamini tanlang: \n1\n2\n3\n")
+      print(f" Sizning navbatingiz: {new_value}")
+      print(f" 2-etaj {xona_raqami}-xonaga borasiz!")
+      break
+
+
+
+
+  
+   
